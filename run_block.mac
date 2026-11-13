@@ -1,0 +1,15 @@
+# Independent full-optics coincidence run. No visualization or analysis.
+/control/verbose 1
+/run/numberOfThreads 8
+/random/setSeeds 14924880 14924881
+/setup/blockEnabled true
+/setup/blockWidth 5 cm
+/setup/blockHeight 5 cm
+/setup/blockThickness 5 cm
+/setup/gap 30 cm
+/setup/peThreshold 1
+/setup/timeWindow 15 ns
+/run/initialize
+/analysis/setFileName block
+/run/printProgress 1000
+/run/beamOn 10000

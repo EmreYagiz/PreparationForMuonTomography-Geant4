@@ -1,0 +1,18 @@
+# 8x8x5 cm Pb at z=6.5 cm; 20 cm face gap, 10x10 cm overlap.
+# Active faces z=+/-10 cm; block spans z=4..9 cm.
+/control/verbose 1
+/run/numberOfThreads 8
+/random/setSeeds 14932011 14932012
+/setup/blockEnabled true
+/setup/blockWidth 8 cm
+/setup/blockHeight 8 cm
+/setup/blockThickness 5 cm
+/setup/blockZ 6.5 cm
+/setup/gap 20 cm
+/setup/overlapWidth 10 cm
+/setup/peThreshold 1
+/setup/timeWindow 15 ns
+/run/initialize
+/analysis/setFileName block_20cm
+/run/printProgress 1000
+/run/beamOn 500000

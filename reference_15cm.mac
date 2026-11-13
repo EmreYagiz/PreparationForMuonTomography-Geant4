@@ -1,0 +1,17 @@
+# Face-to-face scintillator gap: 15 cm.
+# Centered 5 cm block. Equal scintillator-face clearances: 5 cm.
+# Independent random seeds for each condition and distance.
+/control/verbose 1
+/run/numberOfThreads 8
+/random/setSeeds 14926101 14926102
+/setup/blockEnabled false
+/setup/blockWidth 5 cm
+/setup/blockHeight 5 cm
+/setup/blockThickness 5 cm
+/setup/gap 15 cm
+/setup/peThreshold 1
+/setup/timeWindow 15 ns
+/run/initialize
+/analysis/setFileName reference_15cm
+/run/printProgress 1000
+/run/beamOn 100000

@@ -1,0 +1,16 @@
+# 10 cm X x 10 cm Y common projected area. Centered 5 cm Pb block.
+/control/verbose 1
+/run/numberOfThreads 8
+/random/setSeeds 14931201 14931202
+/setup/blockEnabled false
+/setup/blockWidth 5 cm
+/setup/blockHeight 5 cm
+/setup/blockThickness 5 cm
+/setup/gap 70 cm
+/setup/overlapWidth 10 cm
+/setup/peThreshold 1
+/setup/timeWindow 15 ns
+/run/initialize
+/analysis/setFileName reference_70cm
+/run/printProgress 1000
+/run/beamOn 100000

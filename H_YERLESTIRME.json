@@ -1,0 +1,33 @@
+{
+  "project": "/home/esthrila/Geant4/geant4-v11.3.2/examples/basic/B1",
+  "backup": "/home/esthrila/Geant4/geant4-v11.3.2/examples/basic/B1_H_oncesi_yedek_20261021",
+  "variant": "Original Desktop B1 plus H; no added circuit solver",
+  "source_sha256": {
+    "src/ActionInitialization.cc": "027cf0939af003bf43852dd5e0f251347137bd30c0e93b0ee48fcefb64c8470d",
+    "src/PrimaryGeneratorAction.cc": "8d1f330dcfa9960379648216a3cadceebbcda4c2a5b85a73d4bb49ecea5617f9",
+    "src/RunAction.cc": "269e911402a8fbdb0629899057407f4370767afc58dff6c1dc206372606d9894",
+    "src/DetectorConstruction.cc:Zone.Identifier": "eacd09517ce90d34ba562171d15ac40d302f0e691b439f91be1b6406e25f5913",
+    "src/EventAction.cc": "88867aec66a563ce4b62cca1045213ce19aeaedadf00f7ce209dc30c49f86cf7",
+    "src/SteppingAction.cc": "b9b2f9f753617c4890b73391e1f6f6fd2f71e2bf5faf0b35746f75b7d4f40a3a",
+    "src/RunAction.cc:Zone.Identifier": "eacd09517ce90d34ba562171d15ac40d302f0e691b439f91be1b6406e25f5913",
+    "src/SteppingAction.cc:Zone.Identifier": "eacd09517ce90d34ba562171d15ac40d302f0e691b439f91be1b6406e25f5913",
+    "src/ActionInitialization.cc:Zone.Identifier": "eacd09517ce90d34ba562171d15ac40d302f0e691b439f91be1b6406e25f5913",
+    "src/EventAction.cc:Zone.Identifier": "eacd09517ce90d34ba562171d15ac40d302f0e691b439f91be1b6406e25f5913",
+    "src/DetectorConstruction.cc": "b8da2f2f5a76254ecb9ebb2a5b8317b30e6945d44f37bac400a95565ce2c5678",
+    "src/PrimaryGeneratorAction.cc:Zone.Identifier": "eacd09517ce90d34ba562171d15ac40d302f0e691b439f91be1b6406e25f5913",
+    "include/ActionInitialization.hh": "6477c932fbd9158bb2c2f4ee2591e623414bf0b3c1aafeb44a90217e3ddeebd7",
+    "include/ActionInitialization.hh:Zone.Identifier": "eacd09517ce90d34ba562171d15ac40d302f0e691b439f91be1b6406e25f5913",
+    "include/DetectorConstruction.hh": "009a771383c67e2fd90e8ae5ba155ea2f9a86b5b4b458dcac1f606be340aac2a",
+    "include/SteppingAction.hh:Zone.Identifier": "eacd09517ce90d34ba562171d15ac40d302f0e691b439f91be1b6406e25f5913",
+    "include/PrimaryGeneratorAction.hh:Zone.Identifier": "eacd09517ce90d34ba562171d15ac40d302f0e691b439f91be1b6406e25f5913",
+    "include/EcoMug.h:Zone.Identifier": "eacd09517ce90d34ba562171d15ac40d302f0e691b439f91be1b6406e25f5913",
+    "include/EventAction.hh": "37f56793810d508dbbdd08d19dedb54d662e3f90c708596c5a57df3cca13bf4a",
+    "include/DetectorConstruction.hh:Zone.Identifier": "eacd09517ce90d34ba562171d15ac40d302f0e691b439f91be1b6406e25f5913",
+    "include/EventAction.hh:Zone.Identifier": "eacd09517ce90d34ba562171d15ac40d302f0e691b439f91be1b6406e25f5913",
+    "include/SteppingAction.hh": "a4f32de786eb5ad25031a1f9af20ef6774014f18448fd41058c3ae7fde881d0b",
+    "include/RunAction.hh": "8d2ce40012e1375f7c7a47ee5119d6f3898e0725faab828ca1ec52c6c0209156",
+    "include/EcoMug.h": "36ef0c6771380b51dc3e3b4244add4c293ca5d5718d06ce8fae23a7b190213e0",
+    "include/RunAction.hh:Zone.Identifier": "eacd09517ce90d34ba562171d15ac40d302f0e691b439f91be1b6406e25f5913",
+    "include/PrimaryGeneratorAction.hh": "742cc50b83abab05bc10487c0e75b04e85ca6830f5b9e56a30cc6050a4263603"
+  }
+}

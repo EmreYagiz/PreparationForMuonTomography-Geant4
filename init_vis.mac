@@ -1,0 +1,40 @@
+# Macro file for the initialization of example B1
+# in interactive session
+#
+# Set some default verbose
+/control/verbose 2
+/control/saveHistory
+/run/verbose 2
+#
+# Change the default number of threads (in multi-threaded mode)
+#/run/numberOfThreads 4
+#
+# Fixed lead block and crossed horizontal scintillators. No beamOn here.
+/target/enabled true
+/target/shape block
+/target/material G4_Pb
+/target/width 5 cm
+/target/height 5 cm
+/target/thickness 5 cm
+/target/x 0 cm
+/target/y 0 cm
+/target/z 0 cm
+/telescope/x 0 cm
+/telescope/y 0 cm
+/telescope/gap 30 cm
+/telescope/lowerRotation 90 deg
+/telescope/upperX 0 cm
+/telescope/upperY 4.3 cm
+/telescope/lowerX -4.3 cm
+/telescope/lowerY 0 cm
+/tracking/enabled false
+/source/pMinGeV 0.1
+/source/pMaxGeV 100
+/source/zenithMaxDeg 70
+/source/halfSize 12 cm
+/source/z 17 cm
+# Initialize kernel
+/run/initialize
+#
+# Visualization setting
+/control/execute vis.mac

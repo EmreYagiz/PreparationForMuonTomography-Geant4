@@ -1,0 +1,33 @@
+/run/numberOfThreads 1
+/target/enabled true
+/target/shape block
+/target/material G4_Pb
+/target/width 5 cm
+/target/height 5 cm
+/target/thickness 5 cm
+/target/x 0 cm
+/target/y 0 cm
+/target/z 0 cm
+/telescope/x 0 cm
+/telescope/y 0 cm
+/telescope/gap 30 cm
+/telescope/lowerRotation 90 deg
+/telescope/upperX 0 cm
+/telescope/upperY 4.3 cm
+/telescope/lowerX -4.3 cm
+/telescope/lowerY 0 cm
+/tracking/enabled false
+/run/initialize
+/geometry/test/run
+/vis/open TSG_OFFSCREEN 1100x900
+/vis/viewer/set/autoRefresh false
+/vis/drawVolume
+/vis/viewer/set/background 1 1 1
+/vis/viewer/set/style surface
+/vis/viewer/set/viewpointThetaPhi 50 90
+/vis/viewer/set/upVector 0 0 1
+/vis/viewer/zoom 0.8
+/vis/geometry/set/colour TeflonShell1 0 0.75 0.8 0.85 0.3
+/vis/geometry/set/colour TeflonShell2 0 0.75 0.8 0.85 0.3
+/vis/tsg/offscreen/set/file block_geometry.png
+/vis/viewer/rebuild

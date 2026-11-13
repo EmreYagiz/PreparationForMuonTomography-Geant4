@@ -1,0 +1,18 @@
+# 8x8x5 cm Pb at z=11.5 cm; 30 cm face gap, 10x10 cm overlap.
+# Block upper face z=14; upper active face z=15; Teflon underside z=14.9 cm.
+/control/verbose 1
+/run/numberOfThreads 8
+/random/setSeeds 14933011 14933012
+/setup/blockEnabled true
+/setup/blockWidth 8 cm
+/setup/blockHeight 8 cm
+/setup/blockThickness 5 cm
+/setup/blockZ 11.5 cm
+/setup/gap 30 cm
+/setup/overlapWidth 10 cm
+/setup/peThreshold 1
+/setup/timeWindow 15 ns
+/run/initialize
+/analysis/setFileName block_30cm
+/run/printProgress 1000
+/run/beamOn 500000

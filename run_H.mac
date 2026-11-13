@@ -1,0 +1,13 @@
+/random/setSeeds 30303 40404
+/run/numberOfThreads 1
+/target/enabled true
+/target/material G4_Pb
+/target/cell 3 cm
+/target/thickness 3 cm
+/target/x 0 cm
+/target/y 0 cm
+/target/z 0 cm
+/run/printProgress 100
+/run/initialize
+/geometry/test/run
+/run/beamOn 1000
